@@ -1,1 +1,4 @@
-/DWGSIM/
+/DWGSIM/*
+/inputs/*
+/outputs/*
+output.*
