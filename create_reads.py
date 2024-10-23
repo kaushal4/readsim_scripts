@@ -27,20 +27,7 @@ class Arguments:
     def get_sample_0(self):
         return self.sample_0
 
-# ./dwgsim -1 100 -2 100 -y 0 sequence.fasta output
-# ./dwgsim -N 10000 -1 100 -2 100 -y 0 sequence.fasta output
-# ./dwgsim -N 10000 -1 100 -2 100 -y 0 sequence.fasta sample_output/output
-# ./dwgsim -h
-# ./dwgsim -n 10000 -1 100 -2 100 -y 0 sequence.fasta output
-# ./dwgsim -n 211720 -1 100 -2 100 -y 0 ./sequence.fasta output
-# ./dwgsim -1 100 -2 100 -y 0 -C 100 ./sequence.fasta output
-# ./dwgsim -1 100 -2 100 -y 0 -e 0 -E 0 -r 0 -C 100 ./sequence.fasta output
-# ./dwgsim -1 151 -2 151 -y 0 -C 100 ./sequence.fasta output
-# ./dwgsim -1 151 -2 151 -y 0 -e 0 -E 0 -r 0 -C 100 ./sequence.fasta output
-# ./dwgsim -N 211720 -1 151 -2 151 -y 0 -e 0 -E 0 -r 0 ./sequence.fasta output
-# ./dwgsim -N 105857200 -1 151 -2 151 -y 0 -e 0 -E 0 -r 0 ./sequence.fasta output
-# ./dwgsim -N 10,585720 -1 151 -2 151 -y 0 -e 0 -E 0 -r 0 ./sequence.fasta output
-# ./dwgsim -N 10585720 -1 151 -2 151 -y 0 -e 0 -E 0 -r 0 ./sequence.fasta output
+# ./dwgsim -1 100 -2 100 -y 0 ./inputs/sample2.fasta outputs/output1
 class DwgsimRunner:
     def __init__(self, sample_0, output_dir):
         self.sample_0 = sample_0
